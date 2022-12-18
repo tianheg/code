@@ -297,3 +297,9 @@
 #+BEGIN_SRC sh
     cp file.txt{,.bak} # 创建一个文件 file.txt.bak
 #+END_SRC
+
+* 环境变量按行显示
+
+#+BEGIN_SRC sh
+echo $PATH | tr ':' '\n' # 让环境变量按行显示
+#+END_SRC
