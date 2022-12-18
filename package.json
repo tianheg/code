@@ -15,6 +15,6 @@
     "lint-staged": "^13.0.3"
   }
   ,"lint-staged": {
-    "**/*.js": "lint:fix"
+    "**/*.js": "npm run lint:fix"
   }
 }
