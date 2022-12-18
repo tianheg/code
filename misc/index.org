@@ -291,3 +291,9 @@
 #+BEGIN_SRC sh
     curl -H "Authorization: ${{ secrets.EUDIC_TOKEN }}" -A "Mozilla/5.0 (X11; Linux x86_64; rv:100.0) Gecko/20100101 Firefox/100.0" https://api.frdic.com/api/open/v1/studylist/words?language=en
 #+END_SRC
+
+** 复制新文件
+
+#+BEGIN_SRC sh
+    cp file.txt{,.bak} # 创建一个文件 file.txt.bak
+#+END_SRC
