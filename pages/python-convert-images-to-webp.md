@@ -1,4 +1,6 @@
-
+---
+layout: default
+---
 - [How to Convert Images to Webp in Python - Fedingo](https://fedingo.com/how-to-convert-images-to-webp-in-python/)
 - https://stackoverflow.com/a/47655463
 - https://stackoverflow.com/a/57158589
@@ -16,7 +18,6 @@ main.py:
 ```py
 from pathlib import Path
 from PIL import Image
-
 
 def convert_to_webp(source):
     """Convert image to webp.

@@ -1,10 +1,17 @@
 {
-  "name": "code-online",
+  "name": "codes",
   "private": true,
   "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tianheg/codes.git"
   },
   "devDependencies": {
     "eslint": "^8.27.0",
@@ -13,6 +20,13 @@
     "eslint-plugin-promise": "^6.1.1",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3"
+  },
+  "dependencies": {
+    "next": "^13.1.6",
+    "nextra": "^2.2.14",
+    "nextra-theme-docs": "^2.2.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "lint-staged": {
     "**/*.js": "npm run lint:fix"
