@@ -1,3 +1,4 @@
+```js
 'use strict';
 
 const findContentChildren = function (g, s) {
@@ -11,3 +12,4 @@ const findContentChildren = function (g, s) {
     }
   }
 };
+```

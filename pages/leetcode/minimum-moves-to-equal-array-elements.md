@@ -1,4 +1,4 @@
-
+```js
 /**
  * @param {number[]} nums
  * @return {number}
@@ -11,3 +11,4 @@ let minMoves = function (nums) {
   }
   return res;
 };
+```

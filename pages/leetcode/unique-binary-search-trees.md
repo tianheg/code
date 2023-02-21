@@ -1,4 +1,4 @@
-
+```js
 /**
  * @param {number} n
  * @return {number}
@@ -15,3 +15,4 @@ var numTrees = function (n) {
   }
   return G[n];
 };
+```

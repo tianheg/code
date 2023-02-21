@@ -1,4 +1,4 @@
-
+```js
 /**
  * @param {number[]} nums
  * @return {number}
@@ -19,3 +19,4 @@ let removeDuplicates = function (nums) {
   }
   return slow;
 };
+```

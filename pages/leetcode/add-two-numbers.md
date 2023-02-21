@@ -1,3 +1,4 @@
+```js
 'use strict';
 
 // eslint-disable-next-line no-unused-vars
@@ -27,3 +28,4 @@ const addTwoNumbers = function (l1, l2) {
   }
   return head;
 };
+```

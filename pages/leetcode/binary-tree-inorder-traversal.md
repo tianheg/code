@@ -1,3 +1,4 @@
+```js
 'use strict';
 
 /**
@@ -25,3 +26,4 @@ const inorderTraversal = function (root) {
   inorder(root);
   return res;
 };
+```

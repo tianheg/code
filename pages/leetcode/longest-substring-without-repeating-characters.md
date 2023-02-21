@@ -1,4 +1,4 @@
-
+```js
 let lengthOfLongestSubstring = function (s) {
   const occ = new Set();
   const n = s.length;
@@ -17,3 +17,4 @@ let lengthOfLongestSubstring = function (s) {
   return ans;
 };
 lengthOfLongestSubstring('abcac');
+```

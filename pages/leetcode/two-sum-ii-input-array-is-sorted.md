@@ -1,4 +1,4 @@
-
+```js
 /**
  * @param {number[]} numbers
  * @param {number} target
@@ -17,3 +17,4 @@ let twoSum = function (numbers, target) {
     }
   }
 };
+```

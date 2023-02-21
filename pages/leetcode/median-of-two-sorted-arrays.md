@@ -1,4 +1,4 @@
-
+```js
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
@@ -85,3 +85,4 @@ let findMedianSortedArrays = function (nums1, nums2) {
   }
   return result[0];
 };
+```

@@ -1,3 +1,4 @@
+```js
 'use strict';
 
 /**
@@ -16,3 +17,4 @@ const twoSum = function (nums, target) {
     
   }
 };
+```

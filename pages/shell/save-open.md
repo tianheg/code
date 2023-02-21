@@ -1,3 +1,6 @@
+# 保存当前目录
+
+```sh
 #!/usr/bin/env bash
 
 currDir=null
@@ -9,3 +12,4 @@ openThatCurrDir() {
   cd $currDir
   pwd
 }
+```

@@ -1,4 +1,5 @@
-//"use strict";
+```js
+"use strict";
 
 /**
  * // Definition for a QuadTree node.
@@ -103,3 +104,4 @@ construct([
   [0, 1],
   [1, 0],
 ]);
+```
