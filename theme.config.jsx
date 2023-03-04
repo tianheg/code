@@ -7,9 +7,9 @@ export default {
     }
   },
   project: {
-    link: 'https://github.com/tianheg/codes',
+    link: 'https://github.com/tianheg/code',
   },
-  docsRepositoryBase: 'https://github.com/tianheg/codes',
+  docsRepositoryBase: 'https://github.com/tianheg/code',
   footer: {
     text: '每天进步一点点',
   },
