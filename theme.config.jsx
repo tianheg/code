@@ -1,6 +1,6 @@
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
-  logo: <span>Codes</span>,
+  logo: <span>Code</span>,
   useNextSeoProps() {
     return {
       titleTemplate: '%s – 一大加贝'
